@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 st.set_page_config(page_title="SHL Assessment Recommender", layout="wide")
-st.title("🧠 SHL Assessment Recommendation System")
+st.title("SHL Assessment Recommendation System using RAG ( Kindly wait upto 1 minute as it is deployed on free tier server for backend response")
 
 # Input area
 query = st.text_area("Describe the role or requirement:", 
